@@ -8,46 +8,47 @@ Escreve as respostas dentro dos blocos correspondentes. Substitui as reticência
 
 ## Informação do aluno
 
-    Nome: ...
+    Nome: Raúl Arieiro
 
 ## E1 - Responde às seguintes questões (4v)
 
-    1 - As classes são tipos de referência? 
-        ...
-    2 - (Classes/Instâncias) definem o que algo pode fazer e guardar, enquanto uma
-        (classe/instância) é um objeto específico que contém o seu próprio estado 
+    1 - As classes são tipos de referência?         
+        Sim.
+    2 - (/Instâncias) definem o que algo pode fazer e guardar, enquanto uma
+        (classe/) é um objeto específico que contém o seu próprio estado 
         (Apaga a opção entre parênteses errada)
+
     3 - Indica três tipos de membros que podem pertencer a uma classe 
-        ...
+        Casas, Planetas, Armas.
     4 - Se algo é static então é partilhado por todas as instâncias desse tipo específico? 
-        ...
+        Sim.
     5 - Como se chamam os métodos especiais que inicializam uma classe? 
-        ...
+        Construres. 
     6 - De onde podes aceder a algo private? 
-        ...
+        Membro apenas acessível dentro da classe.
     7 - De onde podes aceder a algo public? 
-        ... 
+        Membro acessível a partir de qualquer sítio. 
     8 - De onde podes aceder a algo internal? 
-        ...
+        Membro acessível dentro do mesmo projeto.
 
 ## E2 - Explica por palavras tuas o significado dos seguintes termos (4v)
 
     1 - Classe
-        ...
+        São categorias no geral de um objeto.
     2 - Objeto / instância
-        ...
+        Dentro de classes mas cada um com suas diferenças.
     3 - Método
-        ...
+        A parte em que escrevesmos o codigo.
     4 - Construtor
-        ...
+        Um objeto com o mesmo nome de classe.
     5 - Variável de instância
-        ...
+        Uma variavel independete dos objetos da class.
     6 - Variável local
-        ...
+        Variavel que só existe no local da sua criação.
     7 - Overloading
-        ...
+        Metodos com funcionalidades parecidas mas não iguial e com mesmo nomes.
     8 - Encapsulação
-        ...
+        É como um escudo que não permite que classes privadas sejam acedidas fora da class. 
 
 ## E3 - Cria o seguinte programa de consola (12v)
 
