@@ -26,23 +26,23 @@ namespace BolasColoridas
             green = verde;
             alpha = 255;
         }
-        public int getterRe(){
+        public int GetterRe(){
             return red;
         }
-        public int getterBl(){
+        public int GetterBl(){
             return blue;
         }
-        public int getterGr(){
+        public int GetterGr(){
         return green;    
         }
-        public int getterAl(){
+        public int GetterAl(){
         return alpha;
         }
-        public int getterMe(){
+        public int GetterMe(){
         return media = (red + green + blue)/2;
         }
         public void setRe(int vermelho){
-            int setred =  vermelho;
+            int setRed =  vermelho;
         }
         public void setBl(int azul){
             int  setBl = azul;

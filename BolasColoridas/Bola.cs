@@ -9,33 +9,38 @@ namespace BolasColoridas
     {
         private Cor muda; 
         private int raio;
-        private int nrvezes;
+        private int nrAtiradas;
+        private bool rebentou;
 
-        public int getterRa(){
+        public int GetterRa(){
             return raio;
         }
-        public int getterNr(){
-            return nrvezes;
+        public int GetterNr(){
+            return nrAtiradas;
         }
-        public Cor getterMuda(){
+        public Cor GetterMuda(){
             return muda;
         }
 
-        public Bola(Cor cor,int rai)
-        {
-            muda = cor;
-            raio = rai;
-            nrvezes = 0;
+        public Bola(Cor muda, int raio){
+            this.muda = muda;
+            this.raio = raio;
         }
-        public void Pop(int des){
-            if(des > 0){
-                raio = 0;
+        public void Pop(){
+            raio = 0;
+            rebentou = true;        
+        }
+        public void Atirar(){
+            if(!rebentou){
+                nrAtiradas++;
             }
         }
-        public void Atirar(int atira){
-            if(raio > 1){
-                nrvezes++;
-            }
+        public int GetVezesAtirada(){
+            return nrAtiradas;
         }
+        public Cor GetCor(){
+            return muda;
+        }
+
     }
 }
